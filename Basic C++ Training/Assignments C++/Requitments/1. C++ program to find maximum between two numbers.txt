@@ -1,0 +1,31 @@
+Write a C++ program to find maximum between two numbers using if else. 
+C program to input two numbers from user and find maximum between two 
+numbers using if else. How to find maximum or minimum between two numbers 
+using if else in C++ programming.
+
+Example
+Input
+Input num1: 10
+Input num2: 20
+Output
+Maximum = 20
+
+Logic to find minimum or maximum between two numbers
+Finding maximum in general is comparison of two numbers. 
+In C++ programming we compare two quantities using relational operator. 
+We use either > or < operator to compare two numbers (or other primitive types). 
+Relational operator evaluates 1 (true) or 0 (false) depending on condition.
+
+We can write expression to find maximum between num1 and num2 as num1 > num2. 
+The expression num1 > num2 evaluate 1 if num1 is greater than num2, otherwise evaluates 0.
+
+After finding maximum, we need to execute some action based on the maximum i.e. print the maximum number. 
+In C++ if...else provides ability to execute an action based on condition. 
+So we will make use of relational operator along with if...else to find maximum.
+
+Below is step by step descriptive logic to find maximum.
+
+Input two numbers from user. Store it in some variable say num1 and num2.
+Check if(num1 > num2) then print num1 is maximum.
+Check if(num2 > num1) then print num2 is maximum.
+Check if(num1 == num2) then both the numbers are equal.

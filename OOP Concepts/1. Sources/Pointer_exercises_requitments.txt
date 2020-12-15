@@ -1,0 +1,149 @@
+--- C++ Programming Exercises with Pointer and References ---
+Exercise 01
+Enter value of A: 10
+Enter value of B: 20
+
+Output:
+Value of ptrA is 10 sored in address 0x70fdfc
+Value of ptrB is 20 sored in address 0x70fdf8
+Value of ptrA is 100 sored in address 0x70fdfc
+Value of ptrB is 200 sored in address 0x70fdf8
+
+Exercise 02
+Enter number of values:4
+Enter values in array:
+5
+6
+7
+8
+
+Output:
+Largest integer value in the array is 8
+
+Exercise 03
+Enter number:10
+
+Output:
+The pointer values is 10 the memory address is: 0x70fe04
+
+Exercise 04
+char str[] = "IMIC Technology";
+
+Output:
+I I C
+C Technology
+C T h
+
+Exercise 05 (Non-Pointer)
+class Student{
+public:		
+ string fullName;
+ int age;
+ float scrore;	
+
+private:
+ int rollNo;
+
+};
+
+Output:
+- Object 01 (contructor) -
+- RollNo: -1
+- FullName: IMIC Technology
+- Age: -1
+- Score: 0
+
+- Object 02 (contructor) -
+- RollNo: 100
+- FullName: Nguyen Van A
+- Age: 500
+- Score: 8.5
+
+- Object 03 (contructor) -
+- RollNo: 200
+- FullName: Tran Thi B
+- Age: 400
+- Score: 9.5
+
+Exercise 06
+class Student{
+  public:
+     int rollno;
+     string fullname;
+     int age;
+};
+
+Output:
+1. By Object:
+- RollNo: 100
+- FullName: Nguyen Van A
+- Age: 200
+2. By Pointer:
+- RollNo: 100
+- FullName: Nguyen Van A
+- Age: 200
+
+Exercise 07
+class Animal {int legs, int eyes}
+class Dog {int tail}
+1. By Object:
+- Legs: 4
+- Eyes: 2
+- Tail: 2
+2. By Pointer:
+- Legs: 4
+- Eyes: 2
+- Tail: 2
+
+Exercise 08
+class Shape: float Area and float Perimetter() is pure virtual function.
+class Triangle(){}
+class Rectange(){}
+1. Triangle:
+- Area: 100
+- Perimetter: 200
+2. Rectange:
+- Area: 300
+- Perimetter: 400
+3. Triangle by Pointer:
+- Area: 100
+- Perimetter: 200
+
+*** Pointer to Array ***
+Exercise 09
+Write a C++ program to find the largest element of a given array of integers.
+Output:
+Original array:5 4 9 12 8 
+Largest element of the said array: 12
+
+Exercise 10
+Write a C++ program to find the largest three elements in an array.
+Output:
+Original array: 7 12 9 15 19 32 56 70 
+Three largest elements are: 70, 56, 32
+
+Exercise 11
+Write a C++ program to find second largest element in an given array of integers.
+Output:
+Original array: 7 12 9 15 19 32 56 70 
+The second largest element is: 56
+
+Exercise 12
+Write a C++ program to find k largest elements in a given array of integers.
+Output:
+Original array: 4 5 9 12 9 22 45 7 
+Largest 4 Elements: 45 22 12 9
+
+Exercise 13
+Write a C++ program to find the smallest and second smallest elements in a given array of integers.
+Output:
+Original array: 5 6 7 2 3 4 12 
+Second smallest number: 3
+
+Exercise 14
+Write a C++ program to find the most occurring element in an array of integers.
+Output:
+Original array: 4 5 9 12 9 22 45 7 
+Most occurred number: 9
+
+

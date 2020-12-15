@@ -1,0 +1,25 @@
+C++ program to check whether a number is positive, negative or zero
+Write a C++ program to check positive, negative or zero using simple if or if else. 
+C++ program to input any number from user and check whether the given number is positive, 
+negative or zero. Logic to check negative, positive or zero in C++ programming.
+
+Example
+Input
+Input number: 23
+
+Output
+23 is positive
+
+Logic to check positive, negative or zero
+Logic of this program is simple if you know basic maths. Let us have a quick look about number properties.
+
+A number is said negative if it is less than 0 i.e. num < 0.
+A number is said positive if it is greater than 0 i.e. num > 0.
+We will use the above logic inside if to check number for negative, positive or zero. Step by step 
+descriptive logic to check negative, positive or zero.
+
+Input a number from user in some variable say num.
+Check if(num < 0), then number is negative.
+Check if(num > 0), then number is positive.
+Check if(num == 0), then number is zero.
+Let us code solution of the program.

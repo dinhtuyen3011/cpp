@@ -1,0 +1,23 @@
+C++ program to check whether triangle is valid or not if angles are given
+Write a C++ program to check whether a triangle is valid or not if angles 
+are given using if else. How to check whether a triangle can be formed or not, 
+if its angles are given using if else in C++ programming. Logic to check triangle 
+validity if angles are given in C++ program.
+
+Example
+Input
+Input first angle: 60
+Input second angle: 30
+Input third angle: 90
+
+Output
+The triangle is valid
+
+Logic to check triangle validity if angles are given
+Step by step descriptive logic to check whether a triangle can be formed or not, 
+if angles are given.
+
+Input all three angles of triangle in some variable say angle1, angle2 and angle3.
+Find sum of all three angles, store sum in some variable say sum = angle1 + angle2 + angle3.
+Check if(sum == 180) then, triangle can be formed otherwise not. In addition, make sure 
+angles are greater than 0 i.e. check condition for angles if(angle1 != 0 && angle2 != 0 && angle3 != 0).

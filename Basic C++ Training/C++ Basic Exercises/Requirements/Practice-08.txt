@@ -1,0 +1,6 @@
+Write a program in C++ to calculate the volume of a cube.
+Sample Output:
+Calculate the volume of a cube :
+--------------------------------
+Input the side of a cube : 5
+The volume of a cube is : 125

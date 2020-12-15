@@ -1,0 +1,11 @@
+C++ program to enter week number and print day of week
+Write a C++ program to input week number(1-7) and print the 
+corresponding day of week name using if else. How to print day of week using 
+if else in C++ programming. Logic to convert week number to day of week in C++ programming.
+
+Example
+Input
+Input week number: 1
+
+Output
+Monday

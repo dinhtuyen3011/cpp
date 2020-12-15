@@ -1,0 +1,34 @@
+C++ program to find all roots of a quadratic equation
+Write a C++ program to find all roots of a quadratic equation using if else. 
+How to find all roots of a quadratic equation using if else in C++ programming. 
+Logic to find roots of quadratic equation in C++ programming.
+
+Example
+Input
+Input a: 8
+Input b: -4
+Input c: -2
+
+Output
+Root1: 0.80
+Root2: -0.30
+
+Logic to find all roots of a quadratic equation
+Based on the above formula let us write step by step descriptive logic to find roots of a quadratic equation.
+
+Input coefficients of quadratic equation from user. Store it in some variable say a, b and c.
+Find discriminant of the given equation, using formula discriminant = (b*b) - (4*a*c).
+Learn - Program to find power of a number.
+
+Compute roots based on the nature of discriminant.
+If discriminant > 0 then,
+root1 = (-b + sqrt(discriminant)) / (2*a) and
+root2 = (-b - sqrt(discriminant)) / (2*a).
+Learn - Program to find square root of a number using sqrt() function.
+
+If discriminant == 0 then, root1 = root2 = -b / (2*a).
+Else if discriminant < 0 then, there are two distinct complex roots where
+root1 = -b / (2*a) and root2 = -b / (2*a).
+Imaginary part of the root is given by imaginary = sqrt(-discriminant) / (2*a).
+
+After this much reading let us finally code the solution of this program.

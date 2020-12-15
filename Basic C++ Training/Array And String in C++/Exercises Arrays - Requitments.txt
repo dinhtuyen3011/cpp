@@ -1,0 +1,31 @@
+Exercise 1
+Take 10 integer inputs from user and store them in an array and print them on screen.
+
+Exercise 2
+Find the largest and smallest elements of an array. Initialize default value: {23,6,328,34,12,234,9,23,4,54}
+
+Exercise 3
+Write a C++ program to find the largest element of a given array of integers.
+Original array:5 4 9 12 8 
+Largest element of the said array: 12
+
+Exercise 4
+Write a C++ program to find the largest three elements in an array.
+Original array: 7 12 9 15 19 32 56 70 
+Three largest elements are: 70, 56, 32
+
+Exercise 5
+Write a C++ program to find k largest elements in a given array of integers.
+Hint: using a sort() function in c++
+Original array: 4 5 9 12 9 22 45 7 
+Largest 4 Elements: 45 22 12 9 
+
+Exercise 6
+Write a C++ program to count the number of occurrences of given number in a sorted array of integers.
+Original array: 5 7 8 8 5 8 7 7 
+Number of occurrences of 7 : 3
+
+Exercise 7
+Write a C++ program to find the two repeating elements in a given array of integers.
+Original array: 1 2 3 5 5 7 8 8 9 9 2 
+Repeating elements: 2 5 8 9 

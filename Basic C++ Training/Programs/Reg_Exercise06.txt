@@ -1,0 +1,5 @@
+Write a program in C++ to display the n terms of odd natural number and their sum.
+Display n terms of odd natural number and their sum:                  
+---------------------------------------------------------              
+Input number of terms: 5                                              
+The odd numbers are: 1 3 5 7 9

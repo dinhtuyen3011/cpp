@@ -1,0 +1,96 @@
+- tasks.json (build instructions).
+- launch.json (debugger settings).
+- c_cpp_properties.json (compiler path and IntelliSense settings).
+- URL: https://code.visualstudio.com/docs/cpp/config-mingw
+
+1. Create a tasks.json file to configure VS Code:
+-------------------------------------------------
+- Terminal > Configure Default Build Task > g++.exe build active file.
+- tasks.json file:
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++: g++.exe build active file",
+			"command": "C:\\MinGW\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "C:\\MinGW\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
+- choose Terminal > Run Build Task... (Ctrl+Shift+B).
+
+2. Create a launch.json file to configure VS Code:
+--------------------------------------------------
+- Run > Add Configuration... and then choose C++ (GDB/LLDB).
+- Choose g++.exe build and debug active file.
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "g++.exe - Build and debug active file",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+        "preLaunchTask": "C/C++: g++.exe build active file"
+      }
+    ]
+  }
+
+3. create a c_cpp_properties.json file:
+---------------------------------------
+- Ctrl+Shift+P > C/C++: Edit Configurations (UI).
+- Configuration name: GCC
+- Compiler path: C:/MinGW/bin/g++.exe
+- IntelliSense mode: gcc-x64
+- Code:
+{
+    "configurations": [
+        {
+            "name": "GCC",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/MinGW/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

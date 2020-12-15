@@ -1,0 +1,12 @@
+C++ program to find number of days in month
+Write a C++ program to enter month number between(1-12) and 
+print number of days in month using if else. How to print number of days 
+in a given month using if else in C++ programming. Logic to find number of days 
+in a month in C++ program.
+
+Example
+Input
+Enter month number: 1
+
+Output
+It contains 31 days.

@@ -1,0 +1,12 @@
+C++ program to check whether a character is Uppercase or Lowercase
+Write a C++ program to input character from user and check whether character 
+is uppercase or lowercase alphabet using if else. How to check uppercase and 
+lowercase using if else in C++ programming. Logic to check uppercase and lowercase 
+alphabets in C++ program.
+
+Example
+Input
+Input character: C++
+
+Output
+'C++' is uppercase alphabet

@@ -1,0 +1,16 @@
+Write a program in C++ to print all ASCII character with their values.
+Sample Output:
+Input the starting value for ASCII characters: 65
+Input the ending value for ASCII characters: 75
+The ASCII characters:
+65 --> A
+66 --> B
+67 --> C
+68 --> D
+69 --> E
+70 --> F
+71 --> G
+72 --> H
+73 --> I
+74 --> J
+75 --> K

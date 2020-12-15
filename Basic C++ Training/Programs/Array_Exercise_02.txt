@@ -1,0 +1,6 @@
+Exercise 2:
+-----------
+Write a C++ program to find the largest three elements in an array.
+Output:
+Original array: 7 12 9 15 19 32 56 70 
+Three largest elements are: 70, 56, 32

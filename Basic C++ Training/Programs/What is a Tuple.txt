@@ -1,0 +1,23 @@
+1. What is a tuple?
+- A tuple is an object that can hold a number of elements. 
+- The elements can be of different data types. 
+- The elements of tuples are initialized as arguments in order in which they will be accessed.
+
+2. Operations on tuple?
+a. get()?
+- is used to access the tuple values and modify them.
+
+b. make_tuple()?
+- Is used to assign tuple with values. 
+- The values passed should be in order with the values declared in tuple.
+
+c. tuple_size()?
+- It returns the number of elements present in the tuple.
+
+d. tie()?
+- The work of tie() is to unpack the tuple values into seperate variables. 
+- With and without “ignore” , the “ignore” ignores a particular tuple element 
+and stops it from getting unpacked.
+
+e. tuple_cat()?
+- This function concatenates two tuples and returns a new tuple.

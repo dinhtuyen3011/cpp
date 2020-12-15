@@ -1,0 +1,5 @@
+Write a program in C++ to find the perfect numbers between 1 and 500.
+The perfect numbers between 1 to 500 are:
+6
+28
+496

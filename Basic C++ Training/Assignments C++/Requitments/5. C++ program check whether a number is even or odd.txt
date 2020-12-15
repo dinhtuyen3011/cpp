@@ -1,0 +1,24 @@
+C++ program check whether a number is even or odd
+Write a C++ program to check whether a number is even or odd using if else. 
+How to check whether a number is even or odd using if else in C++ program. 
+C++ Program to input a number from user and check whether the given number is 
+even or odd. Logic to check even and odd number using if...else in C++ programming.
+
+Example
+Input
+Input number: 10
+
+Output
+10 is even number
+
+Logic to check even or odd
+A number exactly divisible by 2 leaving no remainder, is known as even number. 
+Programmatically, if any number modulo divided by 2 equals to 0 then, the number is even otherwise odd.
+
+Step by step descriptive logic to check whether a number is even or odd.
+
+Input a number from user. Store it in some variable say num.
+Check if number modulo division equal to 0 or not i.e. 
+if(num % 2 == 0) then the number is even otherwise odd.
+Important Note: Do not confuse modulo division operator % as percentage operator. 
+There is no percentage operator in C++.

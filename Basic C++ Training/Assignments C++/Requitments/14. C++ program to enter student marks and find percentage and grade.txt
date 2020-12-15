@@ -1,0 +1,31 @@
+C++ program to enter student marks and find percentage and grade
+Write a C++ program to input marks of five subjects Physics, Chemistry, Biology, 
+Mathematics and Computer, calculate percentage and grade according to given conditions:
+If percentage >= 90% : Grade A
+If percentage >= 80% : Grade B
+If percentage >= 70% : Grade C
+If percentage >= 60% : Grade D
+If percentage >= 40% : Grade E
+If percentage < 40% : Grade F
+
+Example
+Input
+Input marks of five subjects: 95
+95
+97
+98
+90
+Output
+
+Percentage = 95.00 
+Grade A
+
+Logic to calculate percentage and grade
+Step by step descriptive logic to find percentage and grade.
+
+Input marks of five subjects in some variable say phy, chem, bio, math and comp.
+Calculate percentage using formula per = (phy + chem + bio + math + comp) / 5.0;.
+Carefully notice I have divided sum with 5.0, instead of 5 to avoid integer division.
+On the basis of per find grade of the student.
+Check if(per >= 90) then, print "Grade A".
+If per is not more than 90, then check remaining conditions mentioned and print grade.

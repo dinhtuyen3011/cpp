@@ -1,0 +1,14 @@
+Storage Classes in C++
+-----------------------
+- Storage Classes are used to describe the features of a variable/function. 
+- These features basically include the scope, visibility and life-time which 
+help us to trace the existence of a particular variable during the runtime of a program. 
+- To specify the storage class for a variable, the following syntax is to be followed:
+- Syntax:
+   storage_class var_data_type var_name; 
+- C++ uses 5 storage classes, namely:
+    1) auto
+    2) register
+    3) extern
+    4) static
+    5) mutable

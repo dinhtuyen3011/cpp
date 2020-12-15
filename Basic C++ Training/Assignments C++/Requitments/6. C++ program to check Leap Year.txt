@@ -1,0 +1,24 @@
+C++ program to check Leap Year
+Write a C++ program to check leap year using if else. 
+How to check whether a given year is leap year or not in C++ programming. 
+C++ Program to input year from user and check whether the given year is leap year 
+or not using ladder if else. Logic to check leap year in C++ programming.
+
+Example
+Input
+Input year: 2004
+
+Output
+2004 is leap year.
+
+Logic to check leap year
+Wikipedia states leap year as a special year containing one extra day i.e. 
+total 366 days in a year. A year is said to be leap year, if the year is exactly 
+divisible by 4 but and not divisible by 100. 
+Year is also a leap year if it is exactly divisible by 400.
+
+Step by step descriptive logic to check leap year.
+Input year from user. Store it in some variable say year.
+If year is exactly divisible by 4 and not divisible by 100, then it is leap year. 
+Or if year is exactly divisible by 400 then it is leap year.
+Let us now implement the logic in our program.

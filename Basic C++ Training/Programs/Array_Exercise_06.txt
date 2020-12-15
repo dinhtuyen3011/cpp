@@ -1,0 +1,7 @@
+Exercise 6:
+-----------
+Write a C++ program to find the most occurring element in an array of integers.
+Output:
+Original array: 4 5 9 12 9 22 45 7 
+Most occurred number: 9
+
